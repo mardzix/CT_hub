@@ -5,7 +5,7 @@ type bigWig
 visibility full
 maxHeightPixels 70:70:32
 configurable on
-autoScale off
+autoScale on
 viewLimits 0.0:1.0
 alwaysZero on
 priority 0.1
@@ -20,7 +20,7 @@ type bigWig
 visibility full
 maxHeightPixels 70:70:32
 configurable on
-autoScale off
+autoScale on
 viewLimits 0.0:1.0
 alwaysZero on
 priority 0.1

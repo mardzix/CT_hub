@@ -5,7 +5,7 @@ longLabel my_comp_testing
 type bigWig  
 
 
-    track myFirstSubtrack
+    track Astro
     parent myComposite on
     shortLabel test_1_short
     longLabel tes_1_long
@@ -21,7 +21,7 @@ type bigWig
     color 0,0,0
 
 
-    track mySecondSubtrack
+    track Microglia
     parent myComposite on
     shortLabel test_2_short
     longLabel tes_2_long

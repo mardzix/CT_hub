@@ -1,0 +1,10 @@
+track type=bigWig name="Astrocytes H3K4me3" description="Astrocytes test" bigDataUrl=https://dl.dropboxusercontent.com/s/80ur667xdxape4p/cluster_Astrocytes.bw visibility=2
+track type=bigWig name="Microglia H3K4me3" description="Astrocytes test" bigDataUrl=https://dl.dropboxusercontent.com/s/cn5vcxp7eu0yk6u/cluster_Microglia.bw
+track type=bigWig name="Oligodendrocytes H3K4me3" description="Astrocytes test" bigDataUrl=https://dl.dropboxusercontent.com/s/tfoictit1l8rp75/cluster_mOL.bw
+track type=bigWig name="Neurons_1 H3K4me3" description="Astrocytes test" bigDataUrl=https://dl.dropboxusercontent.com/s/knsz7kirlo1vxj6/cluster_Neurons_1.bw
+track type=bigWig name="Neurons_2 H3K4me3" description="Astrocytes test" bigDataUrl=https://dl.dropboxusercontent.com/s/tjbs59rfcdfoqrh/cluster_Neurons_2.bw
+track type=bigWig name="Neurons_3 H3K4me3" description="Astrocytes test" bigDataUrl=https://dl.dropboxusercontent.com/s/78pv5maagk370sc/cluster_Neurons_3.bw
+track type=bigWig name="Olfactory ensheating cells H3K4me3" description="Astrocytes test" bigDataUrl=https://dl.dropboxusercontent.com/s/mmaj7z4qzan97ik/cluster_OEC.bw
+track type=bigWig name="OPCs H3K4me3" description="Astrocytes test" bigDataUrl=https://dl.dropboxusercontent.com/s/08ejoejufljx2qs/cluster_OPC.bw
+track type=bigWig name="VLMCs H3K4me3" description="Astrocytes test" bigDataUrl=https://dl.dropboxusercontent.com/s/mvyuhbnvebga6yd/cluster_VLMC.bw
+

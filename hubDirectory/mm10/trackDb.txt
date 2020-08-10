@@ -1,43 +1,33 @@
-track myComposite  
-compositeTrack on  
-shortLabel test 
-longLabel my_comp_testing
+#####################################################
+track multiWig1
 type bigWig
-container multiWig  
-autoscale on
+container multiWig
+shortLabel Ex. multiWig container
+longLabel This multiWig overlay track graphs points from three bigWig files.
+visibility full
 aggregate stacked
 showSubtrackColorOnUi on
 maxHeightPixels 500:100:8
 viewLimits 1:20
 priority 1
+html examplePage
 
-	track myFirstSubtrack
-	shortLabel test_1_short
-	longLabel tes_1_long
-	type bigWig
-	parent myComposite on
-	visibility full
-	maxHeightPixels 70:70:32
-	configurable on
-	autoScale off
-	viewLimits 0.0:1.0
-	alwaysZero on
-	priority 0.1
-	bigDataUrl https://dl.dropboxusercontent.com/s/80ur667xdxape4p/cluster_Astrocytes.bw 
-	color 0,0,0
+                track wig1
+                bigDataUrl ttps://dl.dropboxusercontent.com/s/80ur667xdxape4p/cluster_Astrocytes.bw
+                shortLabel Astrocytes
+                longLabel This is an example bigWig1 displaying Raw Signal from the ENCODE RNA-seq CSHL track, graphing just points as default.
+                parent multiWig1
+                graphTypeDefault points
+                type bigWig
+                color 255,0,0
 
+                track wig2
+                bigDataUrl https://dl.dropboxusercontent.com/s/cn5vcxp7eu0yk6u/cluster_Microglia.bw
+                shortLabel Microglia
+                longLabel This is an example bigWig2 displaying Raw Signal from the ENCODE RNA-seq CSHL track, graphing just points as default.
+                graphTypeDefault points
+                parent multiWig1
+                type bigWig
+                color 0,255,0
 
-	track mySecondSubtrack
-	shortLabel test_2_short
-	longLabel tes_2_long
-	parent myComposite on
-	type bigWig
-	visibility full
-	maxHeightPixels 70:70:32
-	configurable on
-	autoScale off
-	viewLimits 0.0:1.0
-	alwaysZero on
-	priority 0.1
-	bigDataUrl https://dl.dropboxusercontent.com/s/cn5vcxp7eu0yk6u/cluster_Microglia.bw
-	color 0,0,255
+              

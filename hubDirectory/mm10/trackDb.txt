@@ -3,7 +3,7 @@ compositeTrack on
 shortLabel test 
 longLabel my_comp_testing
 type bigWig
-container multiWig  
+#container multiWig  
 autoscale on
 aggregate stacked
 

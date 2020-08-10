@@ -3,9 +3,13 @@ compositeTrack on
 shortLabel test 
 longLabel my_comp_testing
 type bigWig
-#container multiWig  
+container multiWig  
 autoscale on
 aggregate stacked
+showSubtrackColorOnUi on
+maxHeightPixels 500:100:8
+viewLimits 1:20
+priority 1
 
 	track myFirstSubtrack
 	shortLabel test_1_short

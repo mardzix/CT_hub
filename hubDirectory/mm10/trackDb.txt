@@ -14,8 +14,8 @@ priority 1
 	track myFirstSubtrack
 	shortLabel test_1_short
 	longLabel tes_1_long
-	parent myComposite on
 	type bigWig
+	parent myComposite on
 	visibility full
 	maxHeightPixels 70:70:32
 	configurable on
@@ -30,6 +30,7 @@ priority 1
 	track mySecondSubtrack
 	shortLabel test_2_short
 	longLabel tes_2_long
+	parent myComposite on
 	type bigWig
 	visibility full
 	maxHeightPixels 70:70:32

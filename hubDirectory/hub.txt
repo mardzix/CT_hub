@@ -1,0 +1,5 @@
+hub CT_hub
+shortLabel CT_hub
+longLabel Name up to 80 characters versus shortLabel limited to 17 characters
+genomesFile genomes.txt
+email  marek.bartosovic@ki.se

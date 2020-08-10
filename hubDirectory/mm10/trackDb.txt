@@ -1,28 +1,35 @@
-track myFirstSubtrack
-shortLabel test_1_short
-longLabel tes_1_long
-type bigWig
-visibility full
-maxHeightPixels 70:70:32
-configurable on
-autoScale on
-viewLimits 0.0:1.0
-alwaysZero on
-priority 0.1
-bigDataUrl https://dl.dropboxusercontent.com/s/80ur667xdxape4p/cluster_Astrocytes.bw 
-color 0,0,0
+track myComposite  
+compositeTrack on  
+shortLabel test 
+longLabel my_comp_testing
+type bigWig  
+autoscale on
+
+	track myFirstSubtrack
+	shortLabel test_1_short
+	longLabel tes_1_long
+	type bigWig
+	visibility full
+	maxHeightPixels 70:70:32
+	configurable on
+	autoScale off
+	viewLimits 0.0:1.0
+	alwaysZero on
+	priority 0.1
+	bigDataUrl https://dl.dropboxusercontent.com/s/80ur667xdxape4p/cluster_Astrocytes.bw 
+	color 0,0,0
 
 
-track mySecondSubtrack
-shortLabel test_2_short
-longLabel tes_2_long
-type bigWig
-visibility full
-maxHeightPixels 70:70:32
-configurable on
-autoScale on
-viewLimits 0.0:1.0
-alwaysZero on
-priority 0.1
-bigDataUrl https://dl.dropboxusercontent.com/s/cn5vcxp7eu0yk6u/cluster_Microglia.bw
-color 0,0,255
+	track mySecondSubtrack
+	shortLabel test_2_short
+	longLabel tes_2_long
+	type bigWig
+	visibility full
+	maxHeightPixels 70:70:32
+	configurable on
+	autoScale off
+	viewLimits 0.0:1.0
+	alwaysZero on
+	priority 0.1
+	bigDataUrl https://dl.dropboxusercontent.com/s/cn5vcxp7eu0yk6u/cluster_Microglia.bw
+	color 0,0,255

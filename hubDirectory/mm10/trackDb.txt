@@ -2,12 +2,15 @@ track myComposite
 compositeTrack on  
 shortLabel test 
 longLabel my_comp_testing
-type multiWig  
+type bigWig
+container multiWig  
 autoscale on
+aggregate stacked
 
 	track myFirstSubtrack
 	shortLabel test_1_short
 	longLabel tes_1_long
+	parent myComposite on
 	type bigWig
 	visibility full
 	maxHeightPixels 70:70:32

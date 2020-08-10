@@ -1,5 +1,4 @@
 track myFirstSubtrack
-parent CT_hub on
 shortLabel test_1_short
 longLabel tes_1_long
 type bigWig
@@ -15,7 +14,6 @@ color 0,0,0
 
 
 track mySecondSubtrack
-parent CT_hub on
 shortLabel test_2_short
 longLabel tes_2_long
 type bigWig

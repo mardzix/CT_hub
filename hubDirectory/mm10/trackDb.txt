@@ -2,7 +2,7 @@ track myComposite
 compositeTrack on  
 shortLabel test 
 longLabel my_comp_testing
-type bigWig  
+type multiWig  
 autoscale on
 
 	track myFirstSubtrack

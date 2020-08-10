@@ -23,6 +23,7 @@ type bigWig
 
     track Microglia
     parent myComposite on
+    parent myComposite on
     shortLabel test_2_short
     longLabel tes_2_long
     type bigWig

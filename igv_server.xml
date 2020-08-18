@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Global name="Example Project"  infolink="http://www.broadinstitute.org/igv/" version="1">
+    <Category name="Category">
+        <Category name="Subcategory One">
+        <Resource name="pi.12mer.tdf"
+                  path="http://www.broadinstitute.org/igvdata/annotations/hg18/conservation/pi.12mer.wig.tdf" />
+        </Category>
+        <Category name="Subcategory One">
+        <Resource name="omega.12mer.tdf"
+                  path="http://www.broadinstitute.org/igvdata/annotations/hg18/conservation/omega.12mer.tdf" />
+        </Category>
+    </Category>
+</Global>

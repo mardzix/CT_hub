@@ -2,11 +2,11 @@
     <Category name="Category">
         <Category name="Subcategory One">
         <Resource name="pi.12mer.tdf"
-                  path="http://www.broadinstitute.org/igvdata/annotations/hg18/conservation/pi.12mer.wig.tdf" />
+                  path="https://storage.googleapis.com/sc_cutandtag/Cut_and_tag_bw/H3K4me3/bigwig/cluster_Astrocytes.bw" />
         </Category>
         <Category name="Subcategory One">
         <Resource name="omega.12mer.tdf"
-                  path="http://www.broadinstitute.org/igvdata/annotations/hg18/conservation/omega.12mer.tdf" />
+                  path="https://storage.googleapis.com/sc_cutandtag/Cut_and_tag_bw/H3K4me3/bigwig/cluster_Microglia.bw" />
         </Category>
     </Category>
 </Global>

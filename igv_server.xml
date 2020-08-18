@@ -1,12 +1,13 @@
-<Global name="Example Project"  infolink="http://www.broadinstitute.org/igv/" version="1">
-    <Category name="Category">
-        <Category name="Subcategory One">
-        <Resource name="pi.12mer.tdf"
-                  path="https://storage.googleapis.com/sc_cutandtag/Cut_and_tag_bw/H3K4me3/bigwig/cluster_Astrocytes.bw" />
-        </Category>
-        <Category name="Subcategory One">
-        <Resource name="omega.12mer.tdf"
-                  path="https://storage.googleapis.com/sc_cutandtag/Cut_and_tag_bw/H3K4me3/bigwig/cluster_Microglia.bw" />
-        </Category>
-    </Category>
-</Global>
+<Global name="Annotations (hg18)" version="1">
+	<Category name="Genes">
+		<Resource name="RefSeq Genes" path="http://www.broadinstitute.org/igvdata/annotations/hg18/refGene.txt"/>  </Resource>
+		<Resource name="UCSC Genes" hyperlink="http://genome.ucsc.edu/cgi-bin/hgTrackUi?g=knownGene" path="http://www.broadinstitute.org/igvdata/annotations/hg18/UCSCGenes.gene">
+			<!-- UCSCGene.gene -->
+		</Resource>
+		<Resource name="UniGene" hyperlink="http://www.ncbi.nlm.nih.gov/sites/entrez?db=unigene" path="http://www.broadinstitute.org/igvdata/annotations/hg18/Unigene.bed"> </Resource>
+		<Resource name="Ensembl Genes" hyperlink="http://nar.oxfordjournals.org/cgi/content/full/30/1/38" path="http://www.broadinstitute.org/igvdata/annotations/hg18/EnsembleGenes.genepred"> </Resource>
+<!-- 
+       <Resource name="ACEView Genes" hyperlink="http://genomebiology.com/2006/7/S1/S12"
+              path="http://www.broadinstitute.org/igvdata/annotations/hg18/acembly.genepred.gz">
+         -->
+</Category>
